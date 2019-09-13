@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "reacttestlib": "../reacttestlib",
     "@gmod/gff": "^1.1.2",
-    "@gmod/jbrowse-plugin-jbrowse1": "../jbrowse-components/packages/jbrowse1",
-    "@gmod/jbrowse-plugin-svg": "../jbrowse-components/packages/svg",
     "mr-emoji": "^1.1.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
