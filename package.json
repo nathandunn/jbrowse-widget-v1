@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@gmod/gff": "^1.1.2",
+    "@gmod/jbrowse-core": "../jbrowse-components/packages/core",
+    "@gmod/jbrowse-plugin-config": "../jbrowse-components/packages/config",
+    "@gmod/jbrowse-plugin-filtering": "../jbrowse-components/packages/filtering",
+    "@gmod/jbrowse-plugin-jbrowse1": "../jbrowse-components/packages/jbrowse1",
+    "@gmod/jbrowse-plugin-linear-genome-view": "../jbrowse-components/packages/linear-genome-view",
+    "@gmod/jbrowse-plugin-lollipop": "../jbrowse-components/packages/lollipop",
+    "@gmod/jbrowse-plugin-protein": "../jbrowse-components/packages/protein",
+    "@gmod/jbrowse-plugin-svg": "../jbrowse-components/packages/svg",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
