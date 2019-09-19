@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "reacttestlib": "../reacttestlib",
-    "@gmod/gff": "^1.1.2",
+    "@gmod/gff": "../gff-js",
     "mr-emoji": "^1.1.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

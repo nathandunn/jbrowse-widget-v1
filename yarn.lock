@@ -904,15 +904,13 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
-"@gmod/gff@^1.1.2":
+"@gmod/gff@../gff-js":
   version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@gmod/gff/-/gff-1.1.2.tgz#b436b8e322bb1364384db46e7d26ea2efbece7db"
-  integrity sha512-zuXx+UY8grX9denkns6l8hS+Uo9lGpoN2Wi7dDAfSrllWAQqg0hG6uX7CRfFRkt8ulxEWfIvqou2iqWwBaGBBA==
   dependencies:
     babel-runtime "^6.26.0"
     es6-promisify "^6.0.0"
     tmp-promise "^1.0.4"
-    typical "^2.6.1"
+    typical "^3.0.0"
 
 "@hapi/address@2.x.x":
   version "2.1.1"
@@ -9457,10 +9455,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typical@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/typical/-/typical-2.6.1.tgz#5c080e5d661cbbe38259d2e70a3c7253e873881d"
-  integrity sha1-XAgOXWYcu+OCWdLnCjxyU+hziB0=
+typical@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/typical/-/typical-3.0.2.tgz#1891683995b7916822c7ab0ccc238fc462f66e71"
+  integrity sha512-uvJvOMwAheCYrxDUsqkMPpYk7t1/R+4VQnBZ3wzkaA6QRQzXxG6+/yA6VGDtK+bgzCxh6Vk5arJ7TG0Gf8GN1w==
 
 uglify-js@3.4.x:
   version "3.4.10"
