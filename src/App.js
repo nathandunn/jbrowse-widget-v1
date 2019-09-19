@@ -20,7 +20,8 @@ import './App.css';
 // const {FeatureGlyp,SvgFeatureRendering} = require('@gmod/jbrowse-plugin-svg');
 
 import gff from '@gmod/gff'
-import { TabixIndexedFile,VCF } from '@gmod/vcf'
+// import { TabixIndexedFile,VCF } from '@gmod/vcf'
+import VcfParser from '@gmod/vcf'
 import ExampleComponent from 'reacttestlib';
 
 // const fs = require('fs')
@@ -35,7 +36,13 @@ function testGff(){
 
 
 function testVcf() {
-  // const vcf = new VCF({header:'asdfasdf'});
+  const parser = new VcfParser({
+    header: `#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\tBAMs/caudaus.sorted.sam`,
+    });
+  const line = `lcl|Scaffald_1\t80465\trs118266897\tR\tA\t29\tPASS\tNS=3;0,14;AF=0.5;DB;112;PG2.1`
+  console.log('a');
+  const variant = parser.parseLine(line);
+  console.log('b',variant)
   // console.log('vcf',vcf)
   // const tbiIndexed = new TabixIndexedFile({ path: '/Users/nathandunn/repositories/jbrowse-widget-v1/volvox.test.vcf.gz' })
   // const headerText = await tbiIndexed.getHeader()
