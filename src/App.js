@@ -22,8 +22,9 @@ import './App.css';
 import gff from '@gmod/gff'
 // import { TabixIndexedFile,VCF } from '@gmod/vcf'
 import VcfParser from '@gmod/vcf'
-import JBrowseCore from '@gmod/jbrowse-core'
+// import JBrowseCore from '@gmod/jbrowse-core'
 import ExampleComponent from 'reacttestlib';
+import ExampleTypeScriptComponent from 'jbrowse-core-lib2';
 
 // const fs = require('fs')
 
@@ -74,6 +75,7 @@ function App() {
         </p>
       {/*</header>*/}
       <ExampleComponent text='Modern React component module' />
+      <ExampleTypeScriptComponent text='Modern Types  cript component module' />
     </div>
   );
 }
