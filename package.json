@@ -2,10 +2,12 @@
   "name": "jbrowse-widget-v1",
   "version": "0.1.0",
   "private": true,
+  "license": "free",
   "dependencies": {
     "reacttestlib": "../reacttestlib",
     "@gmod/gff": "../gff-js",
     "@gmod/vcf": "../vcf-js",
+    "@gmod/core": "../jbrowse-components/packages/core",
     "jbrowse-core-lib2": "../jbrowse-core-lib2",
     "mr-emoji": "^1.1.4",
     "react": "^16.9.0",
