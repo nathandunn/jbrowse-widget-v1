@@ -20,6 +20,7 @@ import './App.css';
 // const {FeatureGlyp,SvgFeatureRendering} = require('@gmod/jbrowse-plugin-svg');
 
 import gff from '@gmod/gff'
+import { TabixIndexedFile,VCF } from '@gmod/vcf'
 import ExampleComponent from 'reacttestlib';
 
 // const fs = require('fs')
@@ -28,13 +29,29 @@ function testGff(){
 
   const stringOfGFF3 = '###';
   console.log('parsing',stringOfGFF3);
-  const gff3Obj = gff.parseStringSync(stringOfGFF3)
+  const gff3Obj = gff.parseStringSync(stringOfGFF3);
   console.log('parsed Gff3 obj',gff3Obj);
+}
+
+
+function testVcf() {
+  // const vcf = new VCF({header:'asdfasdf'});
+  // console.log('vcf',vcf)
+  // const tbiIndexed = new TabixIndexedFile({ path: '/Users/nathandunn/repositories/jbrowse-widget-v1/volvox.test.vcf.gz' })
+  // const headerText = await tbiIndexed.getHeader()
+  // const tbiVCFParser = new VCF({ header: headerText })
+  // const variants = []
+  // await tbiIndexed.getLines('ctgA', 200, 300, line =>
+  //   variants.push(tbiVCFParser.parseLine(line)),
+  // )
+  // console.log(variants)
 }
 
 function App() {
 
   testGff();
+  testVcf();
+  // testVcf().then( () => console.log('asdf'));
   // let stringOfGFF3 = fs.readFileSync('test.gff3').toString();
   // let stringOfGFF3 = fs.readFileSync('test.gff3').toString();
   // let arrayOfThings = gff.parseStringSync(stringOfGFF3);
