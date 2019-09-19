@@ -6,6 +6,7 @@
     "reacttestlib": "../reacttestlib",
     "@gmod/gff": "../gff-js",
     "@gmod/vcf": "../vcf-js",
+    "@gmod/jbrowse-core": "../jbrowse-core",
     "mr-emoji": "^1.1.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
