@@ -22,7 +22,7 @@ import './App.css';
 import gff from '@gmod/gff'
 // import { TabixIndexedFile,VCF } from '@gmod/vcf'
 import VcfParser from '@gmod/vcf'
-// import JBrowseCore from '@gmod/jbrowse-core'
+import { bpToPx } from '@gmod/jbrowse-core/util'
 import ExampleComponent from 'reacttestlib';
 import ExampleTypeScriptComponent from 'jbrowse-core-lib2';
 
@@ -36,6 +36,10 @@ function testGff(){
   console.log('parsed Gff3 obj',gff3Obj);
 }
 
+function testCore(){
+  const value = bpToPx(10,10,10,false);
+  console.log('output core value',value)
+}
 
 function testVcf() {
   const parser = new VcfParser({
@@ -58,6 +62,7 @@ function testVcf() {
 
 function App() {
 
+  testCore();
   testGff();
   testVcf();
   // testVcf().then( () => console.log('asdf'));
