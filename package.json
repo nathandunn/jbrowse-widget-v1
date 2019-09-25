@@ -5,7 +5,7 @@
   "license": "free",
   "dependencies": {
     "@gmod/gff": "file:../gff-js",
-    "@gmod/jbrowse-core": "^2.0.0",
+    "@gmod/jbrowse-core": "file:../jbrowse-components/packages/core/dist",
     "@gmod/vcf": "file:../vcf-js",
     "mobx": "^5.13.0",
     "mobx-state-tree": "^3.14.1",

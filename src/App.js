@@ -23,8 +23,8 @@ import gff from '@gmod/gff'
 // import { TabixIndexedFile,VCF } from '@gmod/vcf'
 import VcfParser from '@gmod/vcf'
 import { bpToPx } from '@gmod/jbrowse-core/util'
-import ExampleComponent from 'reacttestlib';
-import ExampleTypeScriptComponent from 'jbrowse-core-lib2';
+// import ExampleComponent from 'reacttestlib';
+// import ExampleTypeScriptComponent from 'jbrowse-core-lib2';
 
 // const fs = require('fs')
 
@@ -79,8 +79,8 @@ function App() {
           Based on https://github.com/GMOD/jbrowse-components/tree/master/packages/protein-widget
         </p>
       {/*</header>*/}
-      <ExampleComponent text='Modern React component module' />
-      <ExampleTypeScriptComponent text='Modern Types  cript component module' />
+      {/*<ExampleComponent text='Modern React component module' />*/}
+      {/*<ExampleTypeScriptComponent text='Modern Types  cript component module' />*/}
     </div>
   );
 }
