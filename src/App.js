@@ -17,12 +17,12 @@ import './App.css';
 // import {NCListAdapter}  from '@gmod/jbrowse-plugin-jbrowse1';
 // import {NCListAdapter}  from '@gmod/jbrowse-plugin-jbrowse1/src/NCListAdapter';
 // const SvgFeatureRendering = require('@gmod/jbrowse-plugin-svg/src/SvgFeatureRenderer/components/SvgFeatureRendering');
-// const {FeatureGlyp,SvgFeatureRendering} = require('@gmod/jbrowse-plugin-svg');
+// import {SvgFeatureRendering} from '@gmod/jbrowse-plugin-svg/umd/SvgFeatureRenderer';
 
 import gff from '@gmod/gff'
 // import { TabixIndexedFile,VCF } from '@gmod/vcf'
 import VcfParser from '@gmod/vcf'
-import { bpToPx } from '@gmod/jbrowse-core/util'
+import { bpToPx } from '@gmod/jbrowse-core/umd/util'
 // import ExampleComponent from 'reacttestlib';
 // import ExampleTypeScriptComponent from 'jbrowse-core-lib2';
 
