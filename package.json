@@ -7,6 +7,7 @@
     "@gmod/gff": "file:../gff-js",
     "@gmod/jbrowse-core": "file:.yalc/@gmod/jbrowse-core",
     "@gmod/jbrowse-plugin-svg": "file:.yalc/@gmod/jbrowse-plugin-svg",
+    "@gmod/jbrowse-protein-widget": "file:.yalc/@gmod/jbrowse-protein-widget",
     "@gmod/vcf": "file:../vcf-js",
     "mobx": "^5.13.0",
     "mobx-state-tree": "^3.14.1",

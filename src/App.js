@@ -18,6 +18,9 @@ import './App.css';
 // import {NCListAdapter}  from '@gmod/jbrowse-plugin-jbrowse1/src/NCListAdapter';
 // const SvgFeatureRendering = require('@gmod/jbrowse-plugin-svg/src/SvgFeatureRenderer/components/SvgFeatureRendering');
 // import {SvgFeatureRendering} from '@gmod/jbrowse-plugin-svg/umd/SvgFeatureRenderer';
+// import SVG from '@gmod/jbrowse-plugin-svg'
+import { ProteinWidget, ProteinViewer}  from '@gmod/jbrowse-protein-widget'
+import mydata from './mydata'
 
 import gff from '@gmod/gff'
 // import { TabixIndexedFile,VCF } from '@gmod/vcf'
@@ -60,11 +63,19 @@ function testVcf() {
   // console.log(variants)
 }
 
+function testProteinWidget(){
+  console.log('testing loading the protein widget')
+  const widget = new ProteinWidget(mydata)
+  console.log('widget pulled though',widget)
+  return widget;
+}
+
 function App() {
 
   testCore();
   testGff();
   testVcf();
+  const widget = testProteinWidget();
   // testVcf().then( () => console.log('asdf'));
   // let stringOfGFF3 = fs.readFileSync('test.gff3').toString();
   // let stringOfGFF3 = fs.readFileSync('test.gff3').toString();
@@ -78,6 +89,7 @@ function App() {
         <p>
           Based on https://github.com/GMOD/jbrowse-components/tree/master/packages/protein-widget
         </p>
+      {/*<ProteinViewer widget={widget}/>*/}
       {/*</header>*/}
       {/*<ExampleComponent text='Modern React component module' />*/}
       {/*<ExampleTypeScriptComponent text='Modern Types  cript component module' />*/}
